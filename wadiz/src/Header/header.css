@@ -1,0 +1,135 @@
+.header {
+    display: flex;
+    flex-direction: column;   
+}
+
+.topHeader {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    margin-left: 110px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.topHeader-menu {
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.topHeader-menu:hover {
+    color:#01CCCB;
+}
+
+.topHeader-showmore {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    color:#888;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.topHeader-showmore .moreInfo{
+    flex: 1 1 auto;
+}
+.topHeader-showmore img{
+    flex: 1 1 auto;
+    width: 1.3rem;
+    opacity: 0.5;
+}
+
+.topHeader-search {
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    width: 240px;
+    border-radius: 120px;
+    color: #888;
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+.topHeader-search img {
+    width: 1.3rem;
+    opacity: 0.5;
+    padding-left: 1rem;
+}
+
+.topHeader-search input {
+    padding-left: 1rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+}
+
+.topHeader-search  input::placeholder {
+    font-size: 14px;
+}
+
+.topHeader-user {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+}
+
+.topHeader-project {
+    border: 1.5px solid #01CCCB;
+    border-radius: 2px;
+    color: #01CCCB;
+    font-size: 15px;
+    font-weight: 500;
+    width: 140px;
+    padding:7px 0;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.topHeader-project:hover {
+    background-color: #01CCCB;
+    color: #fff;
+}
+
+.bottomHeader {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.menu {
+    cursor: pointer;
+    margin: 0 40px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #555;
+}
+
+.menu:hover {
+    font-weight: 800;
+    border-bottom: 4px solid #555;
+}
+
+.reddot {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    position:relative;
+    top: -22px;
+    left: 62px;
+    border-radius: 2px;
+}
